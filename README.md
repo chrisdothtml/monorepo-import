@@ -6,8 +6,8 @@ This tool is forked from `lerna import`, and is intended to allow for using that
 
 When you use this to import an external repo into your monorepo:
 
-- it will apply every commit of the external repo on top of HEAD of your monorepo
-- file paths are prefixed by your provided `<sub-directory>`
+- it will apply every commit of `<external-repo-path>` one-by-one on top of HEAD of `<monorepo-path>`
+- file paths throughout the entire repo history are prefixed by your provided `<sub-directory>`
 - original commit author, committer, and date are all preserved
 
 ## Use

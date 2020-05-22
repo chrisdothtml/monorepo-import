@@ -4,6 +4,12 @@
 
 This tool is forked from `lerna import`, and is intended to allow for using that logic generically with non-lerna monorepos.
 
+When you use this to import an external repo into your monorepo:
+
+- it will apply every commit of the external repo on top of HEAD of your monorepo
+- file paths are prefixed by your provided `<sub-directory>`
+- original commit author, committer, and date are all preserved
+
 ## Use
 
 ```

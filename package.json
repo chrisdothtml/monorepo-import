@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "volta": {
+    "node": "12.16.3",
+    "yarn": "1.22.4"
+  },
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.0",
+    "p-map-series": "^1.0.0"
+  },
+  "devDependencies": {
+    "@chrisdothtml/eslint-config": "^0.2.0",
+    "eslint": "^6.0.0"
+  }
+}

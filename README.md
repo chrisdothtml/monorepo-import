@@ -4,18 +4,26 @@
 
 This tool is forked from `lerna import`, and is intended to allow for using that logic generically with non-lerna monorepos.
 
+## Install
+
+```sh
+yarn global add @chrisdothtml/monorepo-import
+# or
+npm install -g @chrisdothtml/monorepo-import
+# or
+volta install @chrisdothtml/monorepo-import
+```
+
 ## Use
 
-```
-# install deps
-yarn
+```sh
+# Usage:
+monorepo-import --help
+monorepo-import <external-repo-path> <monorepo-path> <sub-directory>
 
-# run
-node import.js <external-repo-path> <monorepo-path> <sub-directory>
-
-# examples
-node import.js ../monorepo ../external-repo external-repo
-node import.js ../monorepo ../my-project projects/my-project
+# Examples:
+monorepo-import ../monorepo ../external-repo external-repo
+monorepo-import ../monorepo ../my-project projects/my-project
 ```
 
 When you use this to import an external repo into your monorepo:

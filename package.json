@@ -1,5 +1,16 @@
 {
-  "private": true,
+  "name": "@chrisdothtml/monorepo-import",
+  "version": "0.0.1",
+  "description": "For importing an external repo into a monorepo subdirectory with git history/blame intact",
+  "author": "Chris Deacy <chrisdothtml@gmail.com>",
+  "repository": "github:chrisdothtml/monorepo-import",
+  "bin": {
+    "monorepo-import": "import.js"
+  },
+  "files": [
+    "import.js",
+    "Importer.js"
+  ],
   "volta": {
     "node": "12.16.3",
     "yarn": "1.22.4"

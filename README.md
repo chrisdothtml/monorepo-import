@@ -22,8 +22,8 @@ monorepo-import --help
 monorepo-import <external-repo-path> <monorepo-path> <sub-directory>
 
 # Examples:
-monorepo-import ../monorepo ../external-repo external-repo
-monorepo-import ../monorepo ../my-project projects/my-project
+monorepo-import ../external-repo ../monorepo external-repo
+monorepo-import ../my-project ../monorepo projects/my-project
 ```
 
 When you use this to import an external repo into your monorepo:

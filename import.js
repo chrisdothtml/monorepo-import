@@ -16,8 +16,8 @@ function main(args) {
       monorepo-import <external-repo-path> <monorepo-path> <sub-directory>
 
       # Examples:
-      monorepo-import ../monorepo ../external-repo external-repo
-      monorepo-import ../monorepo ../my-project projects/my-project
+      monorepo-import ../external-repo ../monorepo external-repo
+      monorepo-import ../my-project ../monorepo projects/my-project
     `)
   } else {
     const [externalRepoPath, monorepoPath, subDirectory] = args

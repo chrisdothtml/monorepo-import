@@ -159,7 +159,7 @@ module.exports = class Importer {
     const [email, name] = this.externalExecSync('git', [
       'show',
       '-s',
-      `--format='%ce${sep}%cn'`,
+      `--format='%ae${sep}%an'`,
       sha,
     ]).split(sep)
 
